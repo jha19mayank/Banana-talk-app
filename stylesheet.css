@@ -2,8 +2,10 @@ body {
   background-color: rgb(119, 146, 73);
 }
 
-.top {
+.header {
   background-color: cyan;
+  padding: 20px;
+  left: 0px;
 }
 
 textarea {
@@ -25,4 +27,15 @@ textarea {
 
 #btn-translate {
   background-color: red;
+  padding: 10px;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0px;
+  background-color: cyan;
+  text-align: center;
+  padding: 40px;
 }
